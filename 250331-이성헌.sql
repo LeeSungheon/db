@@ -1,12 +1,12 @@
-/*µ¥ÀÌÅÍ±¸Á¶*/
+/*ë°ì´í„°êµ¬ì¡°*/
 desc emp;
 select*from emp;
 select ename job from emp;
-_µ¥ÀÌÅÍ±¸Á¶
+_ë°ì´í„°êµ¬ì¡°
 desc professor;
 select*from professor;
-select name, 'good morning~~!' "ÀÎ»ç" from professor;
+select name, 'good morning~~!' "ì¸ì‚¬" from professor;
 select dname, 'lt''s deptno:',deptno "DNAME AND DEPTNO"FROM dept;
 select dname, 'lt''s deptno:'||deptno "DNAME AND DEPTNO"FROM dept;
 seleCt dname, q'l,it's deptno:l',deptno"DNAME AND DEPTNO"FROM dept;
-seleCt profno,"±³¼ö´Ô ¹øÈ£" name ÀÌ¸§ ,pay as"±Ş¿©" from professor;
+seleCt profno,"êµìˆ˜ë‹˜ ë²ˆí˜¸" name ì´ë¦„ ,pay as"ê¸‰ì—¬" from professor;
